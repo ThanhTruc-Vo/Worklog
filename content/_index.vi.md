@@ -27,7 +27,7 @@ chapter: false
 
 &emsp; **Thời gian thực tập:** Từ ngày 17/04/2026 đến ngày 12/07/2026
 
-![Ảnh đại diện của bạn](../static/images/avatar.png)
+![Your profile picture](/images/avatar.png?width=400px)
 
 ### Nội dung báo cáo
 
