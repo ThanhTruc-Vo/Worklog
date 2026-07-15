@@ -16,7 +16,7 @@ To address this issue, AWS introduced the **Inbound Federation Lambda Trigger** 
 
 ## Authentication Flow
 
-![Sequence flow of a federated login configured with the inbound federation Lambda trigger](image.png)
+![Sequence flow of a federated login configured with the inbound federation Lambda trigger](/images/3-BlogsTranslated/3.2-Blog2/image.png)
 
 **Figure 1. Authentication flow using the Inbound Federation Lambda Trigger.**
 

@@ -39,34 +39,34 @@ pre: " <b> 1.3. </b> "
 #### 1. Establishing an SSH connection to the public server (EC2-Public) via MobaXterm
 
 Successfully connected to the public server instance at IP `34.239.227.34` running Amazon Linux 2023 using the MobaXterm client SSH session.
-![Establishing an SSH connection to EC2 Public via MobaXterm](image-1.png)
+![Establishing an SSH connection to EC2 Public via MobaXterm](/images/1-Worklog/1.3-Week3/image-1.png)
 
 #### 2. Checking Internet connectivity and executing API calls from the Public instance
 
 Executed a successful `ping` command to test public wide-area network routing to Google and leveraged `curl -I` to verify valid HTTP header responses from Amazon.
-![Checking network connectivity from the Public instance](image-2.png)
+![Checking network connectivity from the Public instance](/images/1-Worklog/1.3-Week3/image-2.png)
 
 #### 3. Configuring key pair permissions and performing a multi-hop SSH connection from Public to Private
 
 Configured secure access permissions for the private key file (`chmod 400`) and initiated a protected internal SSH connection from the public subnet space into the private server instance (`10.0.2.157`).
-![SSH from Public instance to Private instance](image-3.png)
+![SSH from Public instance to Private instance](/images/1-Worklog/1.3-Week3/image-3.png)
 
 #### 4. Allocating a static public IP (Elastic IP) for the NAT Gateway infrastructure
 
 The VPC management dashboard indicates successful allocation of a dedicated static Elastic IP `32.194.27.77` designated as `EIP-NAT-AZ1a` to back the gateway network routing.
-![Allocating an Elastic IP](image-4.png)
+![Allocating an Elastic IP](/images/1-Worklog/1.3-Week3/image-4.png)
 
 #### 5. Launching the NAT Gateway resource within the AWS Management Console
 
 The networking engine records that the `NAT-Gateway-AZ1a` service has been properly mapped to the newly provisioned static Elastic IP and has fully transitioned into the active `Available` state.
-![Launching the NAT Gateway](image-5.png)
+![Launching the NAT Gateway](/images/1-Worklog/1.3-Week3/image-5.png)
 
 #### 6. Verifying one-way outbound network communication from the isolated Private server
 
 Following proper route table updates through the NAT Gateway, the isolated `EC2-Private` host successfully executed a `ping 8.8.8.8` request, receiving complete external data packets.
-![Testing network routing from Private instance via NAT Gateway](image-6.png)
+![Testing network routing from Private instance via NAT Gateway](/images/1-Worklog/1.3-Week3/image-6.png)
 
 #### 7. Direct terminal administration utilizing the EC2 Instance Connect Endpoint (EICE) service
 
 Established an authenticated secure console session straight into the private environment terminal from a standard web browser interface via the designated endpoint attachment.
-![Access via EC2 Instance Connect Endpoint](image-7.png)
+![Access via EC2 Instance Connect Endpoint](/images/1-Worklog/1.3-Week3/image-7.png)

@@ -39,9 +39,9 @@ pre: " <b> 1.5. </b> "
 #### 1.Thực hành Lab 13
 
 
-![alt text](image0.png)
-![alt text](image1.png)
-![alt text](image2.png)
-![alt text](image3.png)
-![alt text](image4.png)
-![alt text](image5.png)
+![alt text](/images/1-Worklog/1.5-Week5/image0.png)
+![alt text](/images/1-Worklog/1.5-Week5/image1.png)
+![alt text](/images/1-Worklog/1.5-Week5/image2.png)
+![alt text](/images/1-Worklog/1.5-Week5/image3.png)
+![alt text](/images/1-Worklog/1.5-Week5/image4.png)
+![alt text](/images/1-Worklog/1.5-Week5/image5.png)

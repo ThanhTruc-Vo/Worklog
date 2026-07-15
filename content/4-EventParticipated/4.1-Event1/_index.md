@@ -160,7 +160,7 @@ The UTMorpho story showed that real projects often begin with uncertainty and pr
 > 
 #### Some event photos
 
-![](_image/image1.jpg)
-![](_image/image2.jpg)
+![](/images/4.1-Event1/image1.jpg)
+![](/images/4.1-Event1/image2.jpg)
 
 

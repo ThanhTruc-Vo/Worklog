@@ -18,7 +18,7 @@ To address this challenge, AWS introduced an architecture that combines **Amazon
 
 # Solution Architecture
 
-![Overall architecture for generating Infrastructure as Code compliant with Service Control Policies](image.png)
+![Overall architecture for generating Infrastructure as Code compliant with Service Control Policies](/images/3-BlogsTranslated/3.3-Blog3/image.png)
 
 **Figure 1. Overall architecture of the system for generating Infrastructure as Code compliant with Service Control Policies.**
 

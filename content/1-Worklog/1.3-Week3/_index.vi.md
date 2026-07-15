@@ -43,34 +43,34 @@ pre: " <b> 1.3. </b> "
 #### 1. Kết nối SSH vào máy chủ công cộng (EC2-Public) qua MobaXterm
 
 Sử dụng client MobaXterm kết nối thành công qua SSH Session tới máy chủ có IP Public 34.239.227.34 trên nền tảng Amazon Linux 2023.
-![Kết nối SSH vào EC2 Public qua MobaXterm](image-1.png)
+![Kết nối SSH vào EC2 Public qua MobaXterm](/images/1-Worklog/1.3-Week3/image-1.png)
 
 #### 2. Kiểm tra kết nối Internet và gọi thử dịch vụ trên máy chủ Public
 
 Thực hiện thành công lệnh ping kiểm tra kết nối mạng diện rộng tới Google và sử dụng lệnh curl -I để kiểm tra phản hồi HTTP từ hệ thống Amazon.
-![Kiểm tra kết nối mạng từ máy Public](image-2.png)
+![Kiểm tra kết nối mạng từ máy Public](/images/1-Worklog/1.3-Week3/image-2.png)
 
 #### 3. Phân quyền cặp khóa và thực hiện SSH nhảy cấp từ máy Public sang máy Private
 
 Cấu hình phân quyền an toàn cho file key pair (chmod 400) và thực hiện SSH bảo mật từ dải IP của máy Public sang máy Private (10.0.2.157) thành công.
-![SSH từ máy Public sang máy Private](image-3.png)
+![SSH từ máy Public sang máy Private](/images/1-Worklog/1.3-Week3/image-3.png)
 
 #### 4. Cấp phát địa chỉ IP tĩnh (Elastic IP) cho hệ thống NAT Gateway
 
 Giao diện quản lý VPC cho thấy đã allocate thành công một địa chỉ Elastic IP cố định 32.194.27.77 đặt tên là EIP-NAT-AZ1a phục vụ hạ tầng mạng.
-![Cấp phát Elastic IP](image-4.png)
+![Cấp phát Elastic IP](/images/1-Worklog/1.3-Week3/image-4.png)
 
 #### 5. Khởi tạo thành công NAT Gateway trên giao diện điều khiển AWS Console
 
 Hệ thống mạng ghi nhận cổng dịch vụ NAT-Gateway-AZ1a đã được liên kết với dải IP tĩnh vừa tạo và chuyển sang trạng thái sẵn sàng hoạt động (Available).
-![Khởi tạo NAT Gateway](image-5.png)
+![Khởi tạo NAT Gateway](/images/1-Worklog/1.3-Week3/image-5.png)
 
 #### 6. Thử nghiệm kết nối mạng một chiều thành công từ bên trong vùng kín (Private)
 
 Máy chủ kín EC2-Private sau khi được định tuyến qua NAT Gateway đã có thể thực hiện lệnh ping 8.8.8.8 và nhận đầy đủ dữ liệu phản hồi từ Internet.
-![Kiểm tra mạng từ máy Private qua NAT Gateway](image-6.png)
+![Kiểm tra mạng từ máy Private qua NAT Gateway](/images/1-Worklog/1.3-Week3/image-6.png)
 
 #### 7. Quản trị trực tiếp Terminal thông qua dịch vụ EC2 Instance Connect Endpoint (EICE)
 
 Truy cập bảo mật thành công vào thẳng giao diện dòng lệnh của máy chủ Private trực tiếp từ trình duyệt Web thông qua cổng Endpoint được cấu hình sẵn.
-![Truy cập qua EC2 Instance Connect Endpoint](image-7.png)
+![Truy cập qua EC2 Instance Connect Endpoint](/images/1-Worklog/1.3-Week3/image-7.png)

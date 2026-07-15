@@ -38,8 +38,8 @@ pre: " <b> 1.6. </b> "
 
 ### Làm  bài lab 57
 
-![alt text](image17.png)
-![alt text](image18.png)
-![alt text](image19.png)
-![alt text](image20.png)
-![alt text](image21.png)
+![alt text](/images/1-Worklog/1.6-Week6/image17.png)
+![alt text](/images/1-Worklog/1.6-Week6/image18.png)
+![alt text](/images/1-Worklog/1.6-Week6/image19.png)
+![alt text](/images/1-Worklog/1.6-Week6/image20.png)
+![alt text](/images/1-Worklog/1.6-Week6/image21.png)

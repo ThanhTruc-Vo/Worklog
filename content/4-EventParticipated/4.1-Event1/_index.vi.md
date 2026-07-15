@@ -111,5 +111,5 @@ Chuỗi bài nói thực chiến tại hội thảo kết hợp với những c�
 
 > Tổng kết lại, sự kiện đã giúp em hiểu rõ được doanh nghiệp cần gì , cách sử dụng AI hiểu quả ,sử dụng AI mới một cách tối ưu hiệu quả hơn , thử thách với bản thân qua các cuộc thi : lấy bài toán kinh doanh làm gốc, dùng sản phẩm thực tế làm câu trả lời, và luôn xây dựng hệ thống với tư duy sẵn sàng xử lý tính bất định của công nghệ tương lai.
 
-![](_image/image1.jpg)
-![](_image/image2.jpg)
+![](/images/4.1-Event1/image1.jpg)
+![](/images/4.1-Event1/image2.jpg)

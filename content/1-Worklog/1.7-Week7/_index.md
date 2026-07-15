@@ -34,5 +34,5 @@ pre: " <b> 1.7. </b> "
 | 6 | - | No scheduled activities for this day. |
 
 ### -Practice Lab 25
-![alt text](image22.png)
-![alt text](image23.png)
+![alt text](/images/1-Worklog/1.7-Week7/image22.png)
+![alt text](images/1-Worklog/1.7-Week7/image23.png)

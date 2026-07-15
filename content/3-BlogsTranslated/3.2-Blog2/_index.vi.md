@@ -16,7 +16,7 @@ Khi xây dựng hệ thống cho phép người dùng đăng nhập bằng các 
 
 ## Luồng hoạt động
 
-![Sequence flow of a federated login configured with the inbound federation Lambda trigger](image.png)
+![Sequence flow of a federated login configured with the inbound federation Lambda trigger](/images/3-BlogsTranslated/3.2-Blog2/image.png)
 
 **Hình 1. Luồng xác thực sử dụng Inbound Federation Lambda Trigger.**
 
