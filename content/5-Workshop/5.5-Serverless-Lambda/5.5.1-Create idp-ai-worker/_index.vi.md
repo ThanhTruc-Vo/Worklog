@@ -17,7 +17,7 @@ Hàm **idp-ai-worker** chịu trách nhiệm xử lý không đồng bộ. Khi c
 
 ![Khởi tạo Lambda](/images/5-Workshop/5.5-Serverless-Lambda/create-worker.png)
 
-6. Bấm nút **Create function**.
+1. Bấm nút **Create function**.
 
 #### Bước 2: Thay đổi cấu hình RAM và Timeout
 Vì tác vụ gọi AI bóc tách tài liệu tiêu tốn thời gian hơn các xử lý thông thường, cần tăng giới hạn mặc định:
@@ -28,7 +28,7 @@ Vì tác vụ gọi AI bóc tách tài liệu tiêu tốn thời gian hơn các 
 
 ![Cấu hình RAM và Timeout](/images/5-Workshop/5.5-Serverless-Lambda/worker-config.png)
 
-5. Bấm **Save**.
+1. Bấm **Save**.
 
 #### Bước 3: Thêm Trigger từ SQS
 1. Tại phần **Function overview** ở đầu trang, bấm nút **Add trigger**.
@@ -38,7 +38,7 @@ Vì tác vụ gọi AI bóc tách tài liệu tiêu tốn thời gian hơn các 
 
 ![Cấu hình Trigger SQS](/images/5-Workshop/5.5-Serverless-Lambda/worker-trigger.png)
 
-5. Giữ nguyên các tùy chọn khác và bấm **Add**.
+1. Giữ nguyên các tùy chọn khác và bấm **Add**.
 
 #### Bước 4: Triển khai mã nguồn
 1. Chuyển sang tab **Code**, mở tệp tin **.lambda_function.py**..

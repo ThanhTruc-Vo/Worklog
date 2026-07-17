@@ -16,12 +16,12 @@ This bucket will securely store the raw documents uploaded by users before they 
 5. **Block Public Access settings for this bucket**: Check **Block all public access**.
 ![Block Public Access](/images/5-Workshop/5.3-Storage-Database/s3-ingest-block-public-1.png)
 
-6. Leave all other options as default.
+1. Leave all other options as default.
 ![Block Public Access](/images/5-Workshop/5.3-Storage-Database/s3-ingest-block-public-2.png)
 ![Block Public Access](/images/5-Workshop/5.3-Storage-Database/s3-ingest-block-public-3.png)
 ![Block Public Access](/images/5-Workshop/5.3-Storage-Database/s3-ingest-block-public-4.png)
 
-7. Click **Create bucket**.
+1. Click **Create bucket**.
 
 #### Configure CORS
 Since our frontend will upload files directly to this bucket, we must configure Cross-Origin Resource Sharing (CORS).

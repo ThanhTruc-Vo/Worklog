@@ -17,7 +17,7 @@ The **idp-api-get-invoices** function scans the **InvoicesData** DynamoDB table 
 
 ![Create Get Invoices Function](/images/5-Workshop/5.5-Serverless-Lambda/get-invoices.png)
 
-6. Click **Create function**.
+1. Click **Create function**.
 
 #### Step 2: Deploy the Source Code
 1. Open the **Code** tab of the newly created function and edit **lambda_function.py**.

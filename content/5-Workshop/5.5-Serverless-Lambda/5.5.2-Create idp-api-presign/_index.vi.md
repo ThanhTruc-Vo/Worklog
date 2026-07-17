@@ -22,12 +22,12 @@ Vì hàm này cần thực hiện quyền sinh URL cho phép tải tệp tin lê
 
 ![Liên kết vai trò thực thi](/images/5-Workshop/5.5-Serverless-Lambda/presign-role.png)
 
-3. Tại tab giao diện quản lý IAM vừa mở rộng, bấm nút **Add permissions** và chọn **Attach policies**.
-4. Nhập `AmazonS3FullAccess` vào ô tìm kiếm, tích chọn chính sách này.
+1. Tại tab giao diện quản lý IAM vừa mở rộng, bấm nút **Add permissions** và chọn **Attach policies**.
+2. Nhập `AmazonS3FullAccess` vào ô tìm kiếm, tích chọn chính sách này.
 
 ![Gắn quyền S3 Full Access](/images/5-Workshop/5.5-Serverless-Lambda/attach-s3-access.png)
 
-5. Cuộn xuống cuối trang và bấm nút **Add permissions** để hoàn tất việc gán quyền.
+1. Cuộn xuống cuối trang và bấm nút **Add permissions** để hoàn tất việc gán quyền.
 
 #### Bước 3: Triển khai mã nguồn
 1. Quay lại màn hình giao diện của hàm Lambda **idp-api-presign**, chuyển sang tab **Code**.

@@ -15,7 +15,7 @@ AWS Lambda functions require an execution role to interact with other AWS servic
 
 ![IAM Trust Entity](/images/5-Workshop/5.4-Messaging-IAM/iam-trust-1.png)
 
-4. On the **Add permissions** page, search for and select (check the box) the following 5 policies:
+1. On the **Add permissions** page, search for and select (check the box) the following 5 policies:
    * `AWSLambdaSQSQueueExecutionRole`
    * `AmazonS3ReadOnlyAccess`
    * `AmazonDynamoDBFullAccess`
@@ -24,7 +24,7 @@ AWS Lambda functions require an execution role to interact with other AWS servic
 
 ![IAM Permissions](/images/5-Workshop/5.4-Messaging-IAM/iam-permissions-2.png)
 
-5. Click **Next**.
-6. **Role name**: Enter `idp-lambda-ai-role`.
+1. Click **Next**.
+2. **Role name**: Enter `idp-lambda-ai-role`.
 ![IAM Permissions](/images/5-Workshop/5.4-Messaging-IAM/idp-lambda-ai-role.png)
-7. Scroll to the bottom and click **Create role**.
+1. Scroll to the bottom and click **Create role**.

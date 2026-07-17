@@ -14,11 +14,11 @@ This bucket will be used to host your compiled React web application.
 3. **AWS Region**: Select **US East (N. Virginia) us-east-1**.
 ![Unblock Public Access](/images/5-Workshop/5.3-Storage-Database/s3-frontend-public-1.png)
 
-4. **Object Ownership**: Select **ACLs disabled**.
-5. **Block Public Access settings for this bucket**: **Uncheck** the box for **Block all public access**.
+1. **Object Ownership**: Select **ACLs disabled**.
+2. **Block Public Access settings for this bucket**: **Uncheck** the box for **Block all public access**.
 ![Unblock Public Access](/images/5-Workshop/5.3-Storage-Database/s3-frontend-public-2.png) 
 
-6. Check the acknowledgment box stating you understand the bucket might become public.
+1. Check the acknowledgment box stating you understand the bucket might become public.
 ![Unblock Public Access](/images/5-Workshop/5.3-Storage-Database/s3-frontend-public-3.png)
 
-7. Leave all other options as default. Click **Create bucket**.
+1. Leave all other options as default. Click **Create bucket**.

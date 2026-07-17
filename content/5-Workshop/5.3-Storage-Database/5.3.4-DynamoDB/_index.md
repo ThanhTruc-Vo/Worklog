@@ -20,7 +20,7 @@ This table stores the final data extracted by the AI.
 
 ![InvoicesData](/images/5-Workshop/5.3-Storage-Database/dynamo-invoicesdata-1.png)
 ![InvoicesData](/images/5-Workshop/5.3-Storage-Database/dynamo-invoicesdata-2.png)
-6. Click **Create table**.
+1. Click **Create table**.
 
 #### Table 2: InvoicePayments
 This table tracks the payment status of each invoice.
@@ -31,7 +31,7 @@ This table tracks the payment status of each invoice.
 
 ![InvoicePayments](/images/5-Workshop/5.3-Storage-Database/dynamo-invoicespayments-1.png)
 ![InvoicePayments](/images/5-Workshop/5.3-Storage-Database/dynamo-invoicespayments-2.png)
-5. Click **Create table**.
+1. Click **Create table**.
 
 #### Table 3: UserBudgets
 This table stores the budget configurations set by users based on their email.
@@ -50,7 +50,7 @@ This table stores custom categorization rules for users.
 
 ![UserCategories](/images/5-Workshop/5.3-Storage-Database/dynamo-usercategories-1.png)
 ![UserCategories](/images/5-Workshop/5.3-Storage-Database/dynamo-usercategories-2.png)
-5. Click **Create table**.
+1. Click **Create table**.
 
 ---
 

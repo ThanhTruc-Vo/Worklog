@@ -31,4 +31,4 @@ Vì hệ thống không cho phép tự do đăng ký, bạn cần cấp phát t�
 
 ![Create User](/images/5-Workshop/5.6-identity-Cognito/create-user.png)
 
-5. Bấm **Create user**. (Khi đăng nhập lần đầu vào Frontend, người dùng sẽ được yêu cầu đổi mật khẩu tạm thời này thành mật khẩu mới và bổ sung thông tin Họ tên).
+1. Bấm **Create user**. (Khi đăng nhập lần đầu vào Frontend, người dùng sẽ được yêu cầu đổi mật khẩu tạm thời này thành mật khẩu mới và bổ sung thông tin Họ tên).

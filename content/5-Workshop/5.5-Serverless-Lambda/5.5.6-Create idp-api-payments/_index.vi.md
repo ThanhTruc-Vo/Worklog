@@ -17,7 +17,7 @@ Hàm **idp-api-payments** thực hiện bộ lọc có điều kiện (Filter Ex
 
 ![Create Get Payments Function](/images/5-Workshop/5.5-Serverless-Lambda/get-payments.png)
 
-6. Bấm **Create function** để hoàn tất khởi tạo ban đầu.
+1. Bấm **Create function** để hoàn tất khởi tạo ban đầu.
 
 #### Bước 2: Triển khai mã nguồn
 1. Chọn tab **Code** của hàm **idp-api-payments**.

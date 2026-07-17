@@ -13,9 +13,9 @@ Since our React frontend and API Gateway will be hosted on different domains, we
 2. Click the **Enable CORS** button.
 3. Under **Gateway responses**, check **Default 4XX** and **Default 5XX**.
 4. Under **Access-Control-Allow-Methods**, make sure **GET** and **OPTIONS** are checked.
-![Enable CORS](/images/5-Workshop/5.7-API-Gateway-WAF/api-cors.png)
-5. Click **Save**.
-6. **Repeat steps 1-5 for ALL other resources** (**/categories**, **/invoices**, **/payments**, **/stats**).
+![Enable CORS](/5-Workshop/5.7-API-Gateway-WAF/api-cors.png)
+1. Click **Save**.
+2. **Repeat steps 1-5 for ALL other resources** (**/categories**, **/invoices**, **/payments**, **/stats**).
 
 
 #### Step 2: Deploy the API
@@ -25,7 +25,7 @@ Your API is not accessible until you deploy it to a stage.
 2. **Stage**: Select **\*New stage\***.
 3. **Stage name**: Enter `dev`.
 ![Deploy API](/images/5-Workshop/5.7-API-Gateway-WAF/deploy-api.png)
-4. Click **Deploy**.
+1. Click **Deploy**.
 
 #### Step 3: Save the Invoke URL
 After deployment, you will be redirected to the Stage details page. 

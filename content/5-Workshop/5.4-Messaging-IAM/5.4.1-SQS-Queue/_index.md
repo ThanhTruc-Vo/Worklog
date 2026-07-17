@@ -16,8 +16,8 @@ We will create a Standard SQS Queue to decouple the document upload process from
 
 ![SQS Configuration](/images/5-Workshop/5.4-Messaging-IAM/sqs-config-1.png)
 
-5. Scroll down to the **Access policy** section and choose **Advanced**.
-6. Replace the existing JSON with the following policy to allow your S3 bucket to send messages to this queue:
+1. Scroll down to the **Access policy** section and choose **Advanced**.
+2. Replace the existing JSON with the following policy to allow your S3 bucket to send messages to this queue:
 
 ![SQS Configuration](/images/5-Workshop/5.4-Messaging-IAM/sqs-config-2.png)
 
@@ -37,4 +37,4 @@ Now, we must tell our Ingestion Bucket to send a message to the newly created SQ
 3. **Specify SQS queue**: Choose **Choose from your SQS queues** and select **idp-document-queue** from the dropdown.
 
 ![SQS Destination](/images/5-Workshop/5.4-Messaging-IAM/send-to-sqs-2.png)
-4. Click **Save changes**.
+1. Click **Save changes**.

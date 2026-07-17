@@ -22,12 +22,12 @@ Because this function needs to generate URLs that permit file uploads to S3, we 
 
 ![Execution Role Link](/images/5-Workshop/5.5-Serverless-Lambda/presign-role.png)
 
-3. In the IAM console that opens, click **Add permissions** and select **Attach policies**.
-4. Type `AmazonS3FullAccess` in the search box and check the box next to this policy.
+1. In the IAM console that opens, click **Add permissions** and select **Attach policies**.
+2. Type `AmazonS3FullAccess` in the search box and check the box next to this policy.
 
 ![Attach S3 Full Access](/images/5-Workshop/5.5-Serverless-Lambda/attach-s3-access.png)
 
-5. Scroll to the bottom and click **Add permissions** to complete the process.
+1. Scroll to the bottom and click **Add permissions** to complete the process.
 
 #### Step 3: Deploy the Source Code
 1. Return to the Lambda console for **idp-api-presign** and switch to the **Code** tab.

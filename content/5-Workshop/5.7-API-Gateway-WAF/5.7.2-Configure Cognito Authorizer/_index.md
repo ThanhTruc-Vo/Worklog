@@ -19,7 +19,7 @@ To ensure that only authenticated users can invoke our API endpoints, we will in
    * **Token source**: Type `Authorization` (This specifies the header that the React Frontend will use to transmit the JWT Token).
    * **Token validation**: Leave this field blank.
 ![Cognito API](/images/5-Workshop/5.7-API-Gateway-WAF/cognito-api-1.png)
-5. Click **Create authorizer**.
+1. Click **Create authorizer**.
 
 #### Step 2: Attach the Authorizer to the GET Method
 We must explicitly apply this security mechanism to our resource endpoints to restrict public access.
@@ -30,7 +30,7 @@ We must explicitly apply this security mechanism to our resource endpoints to re
 4. Under the *Method request settings* section, click **Edit**.
 5. In the **Authorization** dropdown field (which defaults to *NONE*), select your newly created **CognitoUserPoolAuthorizer**.
 ![Cognito API](/images/5-Workshop/5.7-API-Gateway-WAF/cognito-api-2.png)
-6. Click **Save** to apply the configuration.
+1. Click **Save** to apply the configuration.
 
 #### Step 3: Repeat for the Remaining Resources
 Repeat the exact process described in *Step 2* to map the `CognitoUserPoolAuthorizer` to the **GET** methods of the remaining endpoints:

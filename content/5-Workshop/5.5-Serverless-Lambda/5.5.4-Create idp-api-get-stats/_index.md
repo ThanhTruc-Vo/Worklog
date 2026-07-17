@@ -17,7 +17,7 @@ The `idp-api-get-stats` function aggregates invoice data by time periods (months
 
 ![Create Get Stats Function](/images/5-Workshop/5.5-Serverless-Lambda/get-stats.png)
 
-6. Click **Create function**.
+1. Click **Create function**.
 
 #### Step 2: Deploy the Source Code
 1. Open the **Code** tab for **idp-api-get-stats**.

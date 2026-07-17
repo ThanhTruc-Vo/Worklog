@@ -17,7 +17,7 @@ Hàm **idp-api-categories** quét toàn bộ bảng dữ liệu hóa đơn và t
 
 ![Create Get Categories Function](/images/5-Workshop/5.5-Serverless-Lambda/get-categories.png)
 
-6. Nhấn nút **Create function**.
+1. Nhấn nút **Create function**.
 
 #### Bước 2: Triển khai mã nguồn
 1. Truy cập tab **Code** của hàm vừa tạo.

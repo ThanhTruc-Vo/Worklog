@@ -14,8 +14,8 @@ Vì giao diện React và API Gateway chạy trên 2 tên miền (domain) khác 
 3. Tại mục **Gateway responses**, tích chọn **Default 4XX** và **Default 5XX**.
 4. Tại mục **Access-Control-Allow-Methods**, đảm bảo **GET** và **OPTIONS** đã được chọn.
 ![Enable CORS](/images/5-Workshop/5.6-API-Gateway/api-cors.png)
-5. Bấm **Save**.
-6. **Lặp lại các bước từ 1-5 cho TẤT CẢ các resource còn lại** (**/categories**, **/invoices**, **/payments**, **/stats**).
+1. Bấm **Save**.
+2. **Lặp lại các bước từ 1-5 cho TẤT CẢ các resource còn lại** (**/categories**, **/invoices**, **/payments**, **/stats**).
 #### Bước 2: Triển khai (Deploy) API
 API của bạn sẽ chưa thể hoạt động nếu chưa được triển khai (Deploy) vào một môi trường (Stage) cụ thể.
 
@@ -23,7 +23,7 @@ API của bạn sẽ chưa thể hoạt động nếu chưa được triển kha
 2. **Stage**: Chọn **\*New stage\***.
 3. **Stage name**: Nhập `dev`.
 ![Deploy API](/images/5-Workshop/5.6-API-Gateway/deploy-api.png)
-4. Bấm **Deploy**.
+1. Bấm **Deploy**.
 
 #### Bước 3: Lưu lại Invoke URL
 Sau khi Deploy thành công, bạn sẽ được chuyển đến trang chi tiết của Stage.

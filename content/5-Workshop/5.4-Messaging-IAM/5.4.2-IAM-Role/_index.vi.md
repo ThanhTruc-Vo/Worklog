@@ -15,7 +15,7 @@ Các hàm AWS Lambda yêu cầu một vai trò thực thi (execution role) để
 
 ![IAM Trust Entity](/images/5-Workshop/5.4-Messaging-IAM/iam-trust-1.png)
 
-4. Tại trang **Add permissions**, tìm kiếm và tích chọn 5 quyền (policies) sau đây:
+1. Tại trang **Add permissions**, tìm kiếm và tích chọn 5 quyền (policies) sau đây:
    * `AWSLambdaSQSQueueExecutionRole`
    * `AmazonS3ReadOnlyAccess`
    * `AmazonDynamoDBFullAccess`
@@ -24,7 +24,7 @@ Các hàm AWS Lambda yêu cầu một vai trò thực thi (execution role) để
 
 ![IAM Permissions](/images/5-Workshop/5.4-Messaging-IAM/iam-permissions-2.png)
 
-5. Bấm **Next**.
-6. **Role name**: Nhập `idp-lambda-ai-role`.
+1. Bấm **Next**.
+2. **Role name**: Nhập `idp-lambda-ai-role`.
 ![IAM Permissions](/images/5-Workshop/5.4-Messaging-IAM/idp-lambda-ai-role.png)
-7. Cuộn xuống cuối trang và bấm **Create role** để hoàn tất.
+1. Cuộn xuống cuối trang và bấm **Create role** để hoàn tất.

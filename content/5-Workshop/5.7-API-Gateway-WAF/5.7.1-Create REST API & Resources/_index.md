@@ -14,7 +14,7 @@ pre : " <b> 5.7.1. </b> "
 5. **Endpoint Type**: Choose **Regional**.
 
 ![Create API Gateway](/images/5-Workshop/5.7-API-Gateway-WAF/create-api.png)
-6. Click **Create API**.
+1. Click **Create API**.
 
 #### Step 2: Create Resources and Methods
 We need to map URL paths to our 5 API Lambda functions. We will do this by creating Resources (URLs) and Methods (HTTP Verbs).
@@ -26,11 +26,11 @@ Follow this exact process for each of the 5 endpoints:
 4. Select the newly created **/get-upload-url** resource, click **Create method**.
 
 ![API Gateway Method](/images/5-Workshop/5.7-API-Gateway-WAF/api-resource.png)
-5. **Method type**: Select **GET**.
-6. **Integration type**: Select **Lambda function**.
-7. **Lambda proxy integration**: **MUST CHECK THIS BOX** (Turn it on).
-8. **Lambda function**: Select **idp-api-presign**.
-9. Click **Create method**.
+1. **Method type**: Select **GET**.
+2. **Integration type**: Select **Lambda function**.
+3. **Lambda proxy integration**: **MUST CHECK THIS BOX** (Turn it on).
+4. **Lambda function**: Select **idp-api-presign**.
+5. Click **Create method**.
 
 ![API Gateway Method](/images/5-Workshop/5.7-API-Gateway-WAF/api-method.png)
 

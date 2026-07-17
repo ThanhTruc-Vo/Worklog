@@ -16,8 +16,8 @@ Chúng ta sẽ tạo một Hàng đợi SQS Tiêu chuẩn (Standard) để tách
 
 ![SQS Configuration](/images/5-Workshop/5.4-Messaging-IAM/sqs-config-1.png)
 
-5. Cuộn xuống phần **Access policy** và chọn **Advanced**.
-6. Thay thế đoạn mã JSON hiện tại bằng chính sách (policy) dưới đây để cho phép bucket S3 của bạn gửi tin nhắn vào hàng đợi này:
+1. Cuộn xuống phần **Access policy** và chọn **Advanced**.
+2. Thay thế đoạn mã JSON hiện tại bằng chính sách (policy) dưới đây để cho phép bucket S3 của bạn gửi tin nhắn vào hàng đợi này:
 
 ![SQS Configuration](/images/5-Workshop/5.4-Messaging-IAM/sqs-config-2.png)
 
@@ -38,7 +38,7 @@ Bây giờ, chúng ta cần thiết lập để Bucket tiếp nhận dữ liệu
 
 ![SQS Destination](/images/5-Workshop/5.4-Messaging-IAM/send-to-sqs-2.png)
 
-4. Bấm nút **Save changes** để lưu lại.
+1. Bấm nút **Save changes** để lưu lại.
 
 
 

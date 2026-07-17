@@ -17,9 +17,9 @@ Sau khi tài liệu được bóc tách bởi Textract AI và dữ liệu đư�
 
 ![Lifecycle Rule](/images/5-Workshop/5.3-Storage-Database/lifecycle-rule-1.png)
 
-6. Cuộn xuống phần **Lifecycle rule actions**, tích chọn mục **Expire current versions of objects**.
-7. Tại mục **Expire current versions of objects** vừa hiện ra bên dưới, phần **Days after object creation**: Nhập `1` (Xóa sau 1 ngày).
+1. Cuộn xuống phần **Lifecycle rule actions**, tích chọn mục **Expire current versions of objects**.
+2. Tại mục **Expire current versions of objects** vừa hiện ra bên dưới, phần **Days after object creation**: Nhập `1` (Xóa sau 1 ngày).
 
 ![Lifecycle Rule](/images/5-Workshop/5.3-Storage-Database/lifecycle-rule-2.png)
 
-8. Bấm nút **Create rule** để hoàn tất.
+1. Bấm nút **Create rule** để hoàn tất.

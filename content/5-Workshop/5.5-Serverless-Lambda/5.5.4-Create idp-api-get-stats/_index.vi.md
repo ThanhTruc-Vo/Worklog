@@ -17,7 +17,7 @@ Hàm **idp-api-get-stats** thực hiện việc tổng hợp dữ liệu hóa đ
 
 ![Create Get Stats Function](/images/5-Workshop/5.5-Serverless-Lambda/get-stats.png)
 
-6. Bấm nút **Create function**.
+1. Bấm nút **Create function**.
 
 #### Bước 2: Triển khai mã nguồn
 1. Mở tab **Code** của hàm **idp-api-get-stats**.

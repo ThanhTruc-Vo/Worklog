@@ -17,7 +17,7 @@ Hàm **idp-api-get-invoices** thực hiện việc quét (scan) bảng **Invoice
 
 ![Create Get Invoices Function](/images/5-Workshop/5.5-Serverless-Lambda/get-invoices.png)
 
-6. Bấm nút **Create function**.
+1. Bấm nút **Create function**.
 
 #### Bước 2: Triển khai mã nguồn
 1. Mở tab **Code** của hàm vừa tạo, chỉnh sửa tệp tin **lambda_function.py**.

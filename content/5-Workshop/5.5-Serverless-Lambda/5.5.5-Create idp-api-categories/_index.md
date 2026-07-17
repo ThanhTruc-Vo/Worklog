@@ -17,7 +17,7 @@ The **idp-api-categories** function scans the entire invoice data table and perf
 
 ![Create Get Categories Function](/images/5-Workshop/5.5-Serverless-Lambda/get-categories.png)
 
-6. Click **Create function**.
+1. Click **Create function**.
 
 #### Step 2: Deploy the Source Code
 1. Access the **Code** tab of the newly created function.

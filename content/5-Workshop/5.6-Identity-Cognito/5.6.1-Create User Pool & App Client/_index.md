@@ -31,4 +31,4 @@ Since open registration is disabled, you must manually provision accounts for yo
 
 ![Create User](/images/5-Workshop/5.6-identity-Cognito/create-user.png)
 
-5. Click **Create user**. (Upon their first login on the Frontend, the user will be prompted to change this temporary password and provide their full name).
+1. Click **Create user**. (Upon their first login on the Frontend, the user will be prompted to change this temporary password and provide their full name).

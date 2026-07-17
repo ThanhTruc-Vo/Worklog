@@ -17,9 +17,9 @@ Once a document is processed by Textract AI and the extracted data is safely sto
 
 ![Lifecycle Rule](/images/5-Workshop/5.3-Storage-Database/lifecycle-rule-1.png)
 
-6. Scroll down to the **Lifecycle rule actions** section and check the box for **Expire current versions of objects**.
-7. In the newly expanded **Expire current versions of objects** section, under **Days after object creation**: Enter `1`.
+1. Scroll down to the **Lifecycle rule actions** section and check the box for **Expire current versions of objects**.
+2. In the newly expanded **Expire current versions of objects** section, under **Days after object creation**: Enter `1`.
 
 ![Lifecycle Rule](/images/5-Workshop/5.3-Storage-Database/lifecycle-rule-2.png)
 
-8. Click **Create rule** to save the configuration.
+1. Click **Create rule** to save the configuration.

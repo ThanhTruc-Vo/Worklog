@@ -15,7 +15,7 @@ pre : " <b> 5.7.1. </b> "
 
 ![Create API Gateway](/images/5-Workshop/5.6-API-Gateway/create-api.png)
 
-6. Bấm **Create API**.
+1. Bấm **Create API**.
 
 #### Bước 2: Tạo Resources và Methods
 Chúng ta cần tạo các đường dẫn URL để gọi tới 5 hàm Lambda API.
@@ -28,11 +28,11 @@ Hãy làm theo quy trình sau cho điểm cuối (endpoint) đầu tiên:
 
 ![API Gateway Method](/images/5-Workshop/5.7-API-Gateway-WAF/api-resource.png)
 
-5. **Method type**: Chọn **GET**.
-6. **Integration type**: Chọn **Lambda function**.
-7. **Lambda proxy integration**: **BẮT BUỘC TÍCH CHỌN** (Bật tính năng này).
-8. **Lambda function**: Chọn hàm `idp-api-presign`.
-9. Bấm **Create method**.
+1. **Method type**: Chọn **GET**.
+2. **Integration type**: Chọn **Lambda function**.
+3. **Lambda proxy integration**: **BẮT BUỘC TÍCH CHỌN** (Bật tính năng này).
+4. **Lambda function**: Chọn hàm `idp-api-presign`.
+5. Bấm **Create method**.
 
 ![API Gateway Method](/images/5-Workshop/5.7-API-Gateway-WAF/api-method.png)
 

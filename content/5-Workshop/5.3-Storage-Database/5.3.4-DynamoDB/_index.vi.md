@@ -20,7 +20,7 @@ Bảng này lưu trữ dữ liệu cuối cùng sau khi được AI bóc tách.
 
 ![InvoicesData](/images/5-Workshop/5.3-Storage-Database/dynamo-invoicesdata-1.png)
 ![InvoicesData](/images/5-Workshop/5.3-Storage-Database/dynamo-invoicesdata-2.png)
-6. Bấm **Create table**.
+1. Bấm **Create table**.
 
 #### Bảng 2: InvoicePayments
 Bảng này theo dõi trạng thái thanh toán của từng hóa đơn.
@@ -31,7 +31,7 @@ Bảng này theo dõi trạng thái thanh toán của từng hóa đơn.
 
 ![InvoicePayments](/images/5-Workshop/5.3-Storage-Database/dynamo-invoicespayments-1.png)
 ![InvoicePayments](/images/5-Workshop/5.3-Storage-Database/dynamo-invoicespayments-2.png)
-5. Bấm **Create table**.
+1. Bấm **Create table**.
 
 #### Bảng 3: UserBudgets
 Bảng này lưu trữ cấu hình hạn mức chi tiêu (ngân sách) do người dùng tự thiết lập.
@@ -50,7 +50,7 @@ Bảng này lưu các quy tắc danh mục chi tiêu tự định nghĩa của n
 
 ![UserCategories](/images/5-Workshop/5.3-Storage-Database/dynamo-usercategories-1.png)
 ![UserCategories](/images/5-Workshop/5.3-Storage-Database/dynamo-usercategories-2.png)
-5. Bấm **Create table**.
+1. Bấm **Create table**.
 
 ---
 

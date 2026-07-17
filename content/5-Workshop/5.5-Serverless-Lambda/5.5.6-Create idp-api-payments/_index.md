@@ -17,7 +17,7 @@ The **idp-api-payments** function applies a Filter Expression directly on Dynamo
 
 ![Create Get Payments Function](/images/5-Workshop/5.5-Serverless-Lambda/get-payments.png)
 
-6. Click **Create function** to complete the initial setup.
+1. Click **Create function** to complete the initial setup.
 
 #### Step 2: Deploy the Source Code
 1. Select the **Code** tab for the **idp-api-payments** function.

@@ -16,12 +16,12 @@ Bucket này sẽ lưu trữ an toàn các tài liệu thô do người dùng t�
 5. **Block Public Access settings for this bucket**: Đảm bảo đang tích chọn **Block all public access**.
 ![Block Public Access](/images/5-Workshop/5.3-Storage-Database/s3-ingest-block-public-1.png)
 
-6. Các tuỳ chọn còn lại giữ nguyên không thay đổi.
+1. Các tuỳ chọn còn lại giữ nguyên không thay đổi.
 ![Block Public Access](/images/5-Workshop/5.3-Storage-Database/s3-ingest-block-public-2.png)
-![Block Public Access](/images/5-Workshop/5.3-Storage-Database/s3-ingest-block-public-3.png)
+![Block Public Access](images/5-Workshop/5.3-Storage-Database/s3-ingest-block-public-3.png)
 ![Block Public Access](/images/5-Workshop/5.3-Storage-Database/s3-ingest-block-public-4.png)
 
-7. Bấm **Create bucket**.
+1. Bấm **Create bucket**.
 
 #### Cấu hình CORS
 Vì Frontend của chúng ta sẽ tải file trực tiếp lên bucket này, chúng ta phải cấu hình Cross-Origin Resource Sharing (CORS).
